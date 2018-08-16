@@ -1,0 +1,10 @@
+
+git config --global user.name "rahulsingh9878"
+git config --global user.email "rahulsingh9878@gmail.com"
+git init - Create an empty git repository
+git add . - Add all files to the next commit/version
+git status - Gives the status for thr files which are tracked,untracked and modified.
+git commit -m "Your meaningful message here" - Create a commit/version of the proejct
+git log - See commit/version history of the project
+git remote add origin 'Paste your link for remote repo here' to add the link btw remote repo and local repo.
+git push origin master - To push your code ,your project project file to Remote repo from local repo.
