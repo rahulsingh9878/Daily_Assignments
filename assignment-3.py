@@ -1,3 +1,5 @@
+'''                              LIST                         '''
+
 #Q.1- Create a list with user defined inputs. 
 x = []
 s = int(input("Enter the size of list "))
@@ -38,38 +40,47 @@ C = A+B
 C.sort()
 print(C)
 
-#Q.6-Implement a stack and queue using lists.
-stack = ['Rahul','Puneet']
-stack.append("Raj")
-print(stack)
-print("After Poping")
-stack.pop()
-print(stack)
+#Q.6- Count even and odd numbers in that list.
 
-queue = ['Rahul','Puneet']
-queue.append("Raj")
-print(queue)
-print("After Poping")
-queue.pop()
-print(queue)
-
-#OPTIONAL QUESTION
-#Q.1- Count even and odd numbers in that list.
-x = []
-e = 0
-o = 0
-s = int(input("Enter the size of list "))
-for i in range(s):
-    y = int(input("Enter a number "))
-    if y%2==0:
+l = len(C)
+i=0
+e=0
+o=0
+for i in range(l):
+    if C[i]%2==0:
         e+=1
-        x.append(y)
     else:
         o+=1
-        x.append(y)
-print(x)
 print("There are ",e," even numbers in list")
 print("There are ",o," odd numbers in list")
+
+
+'''                             TUPLES                        '''
+#Q.1-Print a tuple in reverse order.
+a = (1,2,3,6,4)
+print(a[::-1])
+
+#Q.2-Find largest and smallest elements of a tuples. 
+a = (2,25,5,699,454)
+print(max(a))
+print(min(a))
+
+
+'''                            STRINGS                        '''
+
+#Q.1- Convert a string to uppercase.
+a = "Rahul"
+print(a.upper())
+
+#Q.2- Print true if the string contains all numeric characters.
+a = "542"
+print(a.isnumeric())
+
+#Q.3- Replace the word "World" with your name in the string "Hello World".
+a = "Hello World"
+a = a.replace("World","Rahul")
+print(a)
+
 
 
 

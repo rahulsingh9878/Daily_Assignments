@@ -8,8 +8,3 @@ git commit -m "Your meaningful message here" - Create a commit/version of the pr
 git log - See commit/version history of the project
 git remote add origin 'Paste your link for remote repo here' to add the link btw remote repo and local repo.
 git push origin master - To push your code ,your project project file to Remote repo from local repo.
-
-
-
-
-
